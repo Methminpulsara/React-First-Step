@@ -1,15 +1,15 @@
-
 import './App.css'
-import Header from './components/header'
+import ChildComponent from './components/ChildComponent';
 
 function App() {
 
+  const username="methmin"
+
   return (
     <>
-    <Header></Header>
-      
+      <ChildComponent data={username} />
     </>
-  )
+  );
 }
 
 export default App
